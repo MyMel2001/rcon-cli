@@ -1,0 +1,25 @@
+{
+  "name": "rcon-cli",
+  "version": "1.0.0",
+  "description": "CLI-based RCON client for game servers",
+  "main": "index.js",
+  "bin": {
+    "rcon-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rcon",
+    "game-server",
+    "minecraft",
+    "source",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

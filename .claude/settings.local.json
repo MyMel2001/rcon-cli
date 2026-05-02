@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/sparky/Code/rcon-cli)",
+      "Bash(npm init *)",
+      "Bash(chmod +x *)",
+      "Bash(node *)"
+    ]
+  }
+}
