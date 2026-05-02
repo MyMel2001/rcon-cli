@@ -209,7 +209,6 @@ async function interactiveMode(client) {
     }
 
     if (command === '') {
-      rl.prompt();
       continue;
     }
 
@@ -219,8 +218,6 @@ async function interactiveMode(client) {
     } catch (error) {
       console.error(`Error: ${error.message}`);
     }
-
-    rl.prompt();
   }
 }
 
